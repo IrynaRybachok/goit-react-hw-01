@@ -1,0 +1,54 @@
+.card{
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cardWrapp{
+    padding: 20px;
+}
+
+.image{
+    width: 100px;
+    border-radius: 50%;
+    background-color: #2E2F42;
+    margin: 0 auto;
+}
+
+.fullname{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tag, .location{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+.statsList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: darkgray;
+    border-top: 2px solid gray;
+}
+
+.statsItem{
+    padding: 15px 10px;
+}
+
+.statsItem:not(:last-child){
+    border-right: 2px solid gray;
+}
+
+.stats{
+    display: block;
+    font-size: 16px;
+}
+
+.followers{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
