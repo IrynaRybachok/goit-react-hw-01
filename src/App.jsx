@@ -2,7 +2,7 @@
 import './App.css';
 import Profile from './components/Task-1/Profile';
 import userData from './userData.json';
-import FriendList from './components/Task-2/FriendListItem';
+import FriendList from './components/Task-2/FriendList';
 import friends from './friends.json';
 import TransactionHistory from './components/Task-3/TransactionHistory'
 import transactions from "./transactions.json";
